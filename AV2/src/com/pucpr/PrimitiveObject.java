@@ -1,5 +1,8 @@
 package com.pucpr;
 
-public class PrimitiveObject {
+public abstract class PrimitiveObject {
     
+    public PrimitiveObject() {
+    }
+
 }

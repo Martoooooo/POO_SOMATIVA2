@@ -1,5 +1,9 @@
 package com.pucpr;
 
-public class GUI {
+public abstract class GUI {
+
+    public GUI() {
+
+    }
     
 }

@@ -1,5 +1,7 @@
 package com.pucpr;
 
-public class Drawable {
+interface Drawable {
     
+    void onDraw();
+
 }

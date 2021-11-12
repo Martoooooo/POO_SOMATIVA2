@@ -1,5 +1,6 @@
 package com.pucpr;
 
-public class Clickable {
+interface Clickable {
     
+    void onClick();
 }
