@@ -1,12 +1,16 @@
 package com.pucpr;
-
-public class Button implements Clickable, Drawable {
+                //seguindo o diagrama, acho
+                //que tem que ter esse extend
+public class Button extends GUI implements Clickable{
 
     // Atributos
     public String texto;
 
     // Constructor
-    public Button(String texto) {
+    public Button(float posicaoX, float posicaoY,
+                String texto) {
+                super(posicaoX, posicaoY);
+                
         this.texto = texto;
     }
 
@@ -19,10 +23,6 @@ public class Button implements Clickable, Drawable {
         //faz algo quando clica
         
     }
-
-
-
-
 
 
     // Gets and sets

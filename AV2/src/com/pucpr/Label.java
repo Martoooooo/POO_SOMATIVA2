@@ -1,13 +1,17 @@
 package com.pucpr;
-
-public class Label implements Drawable{
+                //seguindo o diagrama, acho
+                //que tem que ter esse extend
+public class Label extends GUI{
 
     // Atributos
     public String texto;
     public int tamanhoFonte;
 
     // Constructor
-    public Label(String texto, int tamanhoFonte) {
+    public Label(float posicaoX, float posicaoY,
+                String texto, int tamanhoFonte){ 
+                super(posicaoX, posicaoY);
+                
         this.texto = texto;
         this.tamanhoFonte = tamanhoFonte;
     }

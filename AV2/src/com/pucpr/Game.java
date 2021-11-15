@@ -14,6 +14,7 @@ public class Game {
 
     public void addObject() {
         //add item a lista (eu acho)
+
     }
 
     public void removeObject() {

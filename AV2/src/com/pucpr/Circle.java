@@ -1,12 +1,18 @@
 package com.pucpr;
-
-public class Circle implements Drawable{
+                //seguindo o diagrama, acho
+                //que tem que ter esse extend
+public class Circle extends PrimitiveObject{
     
     //Atributos
     public float raio;
 
     //Constructor
-    public Circle(float raio) {
+    public Circle(float posicaoX, float posicaoY,
+                float raio) {//O exemplo não pede nome, mas não consigo tirar
+                    
+                super(posicaoX, posicaoY);
+
+                
         this.raio = raio;
     }
 

@@ -1,9 +1,12 @@
 package com.pucpr;
 
-public abstract class GUI {
+public abstract class GUI extends GameObject implements Drawable {
 
-    public GUI() {
 
+    public GUI(float posicaoX, float posicaoY) {
+        super(posicaoX, posicaoY);
+        
     }
+    
     
 }

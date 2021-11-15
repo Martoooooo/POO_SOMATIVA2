@@ -1,12 +1,18 @@
 package com.pucpr;
-
-public class Quad implements Drawable{
+                //seguindo o diagrama, acho
+                //que tem que ter esse extend
+public class Quad extends PrimitiveObject{
     
     //Atributos
     public float largura, altura;
 
     //Constructor
-    public Quad(float largura, float altura) {
+    public Quad(float posicaoX, float posicaoY, 
+                float largura, float altura){
+                
+                //String nome){ //O exemplo não pede nome, mas não consigo tirar
+                super(posicaoX, posicaoY);
+        
         this.largura = largura;
         this.altura = altura;
     }

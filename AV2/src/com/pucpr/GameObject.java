@@ -13,6 +13,12 @@ public abstract class GameObject {
         this.posicaoY = posicaoY;
     }
 
+    public GameObject(float posicaoX, float posicaoY) {
+        this.posicaoX = posicaoX;
+        this.posicaoY= posicaoY;
+    }
+
+
 
 
     //Getters and Setters
