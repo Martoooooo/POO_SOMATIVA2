@@ -20,6 +20,10 @@ public class Quad extends PrimitiveObject{
     //Métodos
     public void onDraw(){
         //faz algo quando desenha
+        System.out.println("🟦 Desenha um quadrado na posição \nx: "+posicaoX+" y: "+posicaoY+
+                            "\nLargura: "+largura+" \nAltura: "+altura);
+
+
         
     }
 

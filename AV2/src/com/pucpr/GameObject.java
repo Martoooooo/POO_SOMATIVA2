@@ -1,6 +1,8 @@
 package com.pucpr;
 
-public abstract class GameObject {
+import java.io.Serializable;
+
+public abstract class GameObject implements Serializable {
     
     //Atributos
     public String nome;
@@ -17,8 +19,6 @@ public abstract class GameObject {
         this.posicaoX = posicaoX;
         this.posicaoY= posicaoY;
     }
-
-
 
 
     //Getters and Setters

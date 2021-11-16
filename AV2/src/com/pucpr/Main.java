@@ -11,9 +11,8 @@ public class Main {
     // game.addObject(new Button(0,0,"Iniciar"));
     // game.clickAll();
     // game.drawAll();
-    // game.saveAll();
-    // game.loadAll();
-    // }
+    // game.SaveAll();
+    game.LoadAll();
+    }
 }
 
-}

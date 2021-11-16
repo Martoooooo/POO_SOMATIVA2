@@ -19,6 +19,8 @@ public class Circle extends PrimitiveObject{
     //Métodos
     public void onDraw(){
         //faz algo quando desenha
+        System.out.println("🔴 Desenha um circulo na posição \nx: "+posicaoX+
+                            "\ny: "+posicaoY+"\nRaio: "+raio);
         
     }
 

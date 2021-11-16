@@ -17,10 +17,12 @@ public class Button extends GUI implements Clickable{
     //Métodos
     public void onDraw(){
         //faz algo quando desenha
-        
+        System.out.println("🔘 Desenha um botão na posição \nx:"+posicaoX+
+                            "\ny: "+posicaoY+"\nTitulo: "+texto);
     }
     public void onClick(){
         //faz algo quando clica
+        System.out.println("Clicou no botão: "+texto);
         
     }
 

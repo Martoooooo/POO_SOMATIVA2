@@ -19,11 +19,11 @@ public class Label extends GUI{
     // Métodos
     public void onDraw(){
         //faz algo quando desenha
+        System.out.println("Desenha um texto posição \nx:"+posicaoX+
+                            "\ny: "+posicaoY+"\nTitulo: "+texto+
+                            "\nTamanho da fonte: "+tamanhoFonte);
         
     }    
-
-
-
 
 
     // Gets and sets
