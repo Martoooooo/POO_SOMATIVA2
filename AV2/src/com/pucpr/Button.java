@@ -10,8 +10,9 @@ public class Button extends GUI implements Clickable{
     public Button(float posicaoX, float posicaoY,
                 String texto) {
                 super(posicaoX, posicaoY);
-                
+        
         this.texto = texto;
+        this.nome = texto; 
     }
 
     //Métodos
@@ -22,7 +23,7 @@ public class Button extends GUI implements Clickable{
     }
     public void onClick(){
         //faz algo quando clica
-        System.out.println("Clicou no botão: "+texto);
+        System.out.println("Clicou no botão: "+ nome);
         
     }
 

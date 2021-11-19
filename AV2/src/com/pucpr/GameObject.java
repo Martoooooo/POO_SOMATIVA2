@@ -5,8 +5,8 @@ import java.io.Serializable;
 public abstract class GameObject implements Serializable {
     
     //Atributos
-    public String nome;
-    public float posicaoX, posicaoY;
+    protected String nome;
+    protected float posicaoX, posicaoY;
 
     //Constructor
     public GameObject(String nome, float posicaoX, float posicaoY) {

@@ -25,8 +25,11 @@ public class Game implements Serializable{
 
     }
 
-    public void removeObject() {
-        //remove item da lista (vamos ver)
+    public void removeObject(GameObject obj) {
+    
+        gameObject.remove(obj);
+        
+        System.out.println(gameObject);
     }
 
     public void drawAll(){

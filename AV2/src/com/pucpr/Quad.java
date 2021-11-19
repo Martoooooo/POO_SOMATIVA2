@@ -11,7 +11,8 @@ public class Quad extends PrimitiveObject{
                 float largura, float altura){
                 
                 //String nome){ //O exemplo não pede nome, mas não consigo tirar
-                super(posicaoX, posicaoY);
+        super(posicaoX, posicaoY);
+
         
         this.largura = largura;
         this.altura = altura;
